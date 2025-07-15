@@ -1,7 +1,8 @@
 {
-  "name": "wall-sim-ready-temp",
-  "version": "0.1.0",
-  "private": true,
+  "name": "wall-simulator",
+  "version": "1.0.0",
+  "homepage": "https://telegonx.github.io/wall-simulator"
+  
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -12,6 +13,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -35,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
